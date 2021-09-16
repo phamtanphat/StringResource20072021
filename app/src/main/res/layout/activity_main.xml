@@ -59,7 +59,7 @@
         android:layout_below="@id/linearContainerFlag"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
-        android:text="Đăng nhập hệ thống"
+        android:text="@string/text_title_form_login"
         android:textAllCaps="true"
         android:textColor="#f20"
         android:textSize="28sp" />
@@ -72,7 +72,7 @@
         android:layout_below="@id/textViewTitle"
         android:layout_marginHorizontal="10dp"
         android:layout_marginTop="10dp"
-        app:placeholderText="Input email"
+        app:placeholderText="@string/text_placeholder_email"
         app:placeholderTextColor="#CACACA"
         app:startIconDrawable="@drawable/ic_email">
 
@@ -80,7 +80,7 @@
             android:id="@+id/textInputEditTextMail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Email" />
+            android:hint="@string/text_hint_email" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -95,7 +95,7 @@
         android:layout_marginTop="10dp"
         app:passwordToggleDrawable="@drawable/bg_visible_password"
         app:passwordToggleEnabled="true"
-        app:placeholderText="Input password"
+        app:placeholderText="@string/text_placeholder_password"
         app:placeholderTextColor="#CACACA"
         app:startIconDrawable="@drawable/ic_lock">
 
@@ -103,7 +103,7 @@
             android:id="@+id/textInputEditTextPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Password"
+            android:hint="@string/text_hint_password"
             android:inputType="textPassword" />
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -115,7 +115,7 @@
         android:layout_below="@id/textInputLayoutPassword"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="15dp"
-        android:text="Đăng nhập" />
+        android:text="@string/text_button_login" />
 
     <TextView
         android:id="@+id/textViewInfo"
