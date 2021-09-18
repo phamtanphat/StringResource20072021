@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">StringResource20072021</string>
+    <string name="text_title_form_login">Login System</string>
+    <string name="text_hint_email">Email</string>
+    <string name="text_hint_password">Password</string>
+    <string name="text_placeholder_password">Input password</string>
+    <string name="text_placeholder_email">Input email</string>
+    <string name="text_button_login">Sign In</string>
 </resources>

@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">StringResource20072021</string>
+    <string name="text_title_form_login">Đăng nhập hệ thống</string>
+    <string name="text_hint_email">Tài khoản email</string>
+    <string name="text_hint_password">Mật khẩu</string>
+    <string name="text_placeholder_password">Nhập mật khẩu</string>
+    <string name="text_placeholder_email">Nhập tài khoản email</string>
+    <string name="text_button_login">Đăng nhập</string>
 </resources>
