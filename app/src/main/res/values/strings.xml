@@ -6,4 +6,5 @@
     <string name="text_placeholder_email">Input email</string>
     <string name="text_button_login">Sign In</string>
     <string name="text_title_form_login">Login System</string>
+    <string name="text_demo_html"><![CDATA[<u>Link</u>]]></string>
 </resources>

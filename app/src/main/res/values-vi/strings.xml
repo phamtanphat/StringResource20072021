@@ -7,4 +7,5 @@
     <string name="text_placeholder_password">Nhập mật khẩu</string>
     <string name="text_placeholder_email">Nhập tài khoản email</string>
     <string name="text_button_login">Đăng nhập</string>
+    <string name="text_demo_html"><![CDATA[<u>Link</u>]]></string>
 </resources>

@@ -1,7 +1,9 @@
 package com.example.stringresource20072021;
 
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.os.Build;
 import android.os.Bundle;
 import android.text.Html;
 import android.view.View;
@@ -26,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         mTvInfo = findViewById(R.id.textViewInfo);
 
         mBtnSignIn.setOnClickListener(new View.OnClickListener() {
+            @RequiresApi(api = Build.VERSION_CODES.N)
             @Override
             public void onClick(View view) {
                 String email = mEdtEmail.getText().toString();
@@ -34,8 +37,13 @@ public class MainActivity extends AppCompatActivity {
                 if (email.equals("android123@gmail.com") && password.equals("12345678")){
                     String strEmail = getResources().getString(R.string.text_hint_email);
                     String strPassword = getResources().getString(R.string.text_hint_password);
-                    mTvInfo.setText(strEmail + " : " + email + "\n" + strPassword + " : " + strPassword);
+                    String strLink = getResources().getString(R.string.text_demo_html);
+
+                    mTvInfo.setText(strEmail + " : " + email + "\n" + strPassword + " : " + password + "\n");
+                    mTvInfo.append(Html.fromHtml(strLink));
+
                 }
+
             }
         });
     }
